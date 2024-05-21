@@ -1,0 +1,3 @@
+- The number of RDS instances has been increased from 1 to 2, with one master instance per availability zone.
+- The EC2 instance type has been upgraded from c5.xlarge to c5.4xlarge to enhance performance.
+- CloudWatch and Alarms have been added for monitoring and supervision.

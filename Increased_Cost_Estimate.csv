@@ -1,0 +1,23 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,19809.96,237719.52,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),Application Server,Amazon EC2 ,0,3990.3999999999996,47884.80,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 8), Advance EC2 instance (c5.4xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),Web Server ,Amazon EC2 ,0,3990.3999999999996,47884.80,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 8), Advance EC2 instance (c5.4xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),Master DB,Amazon RDS for PostgreSQL,0,4738.48,56861.76,USD,,"Storage amount (500 GB), Storage volume (General Purpose SSD (gp3)), Nodes (2), Instance Type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), General Purpose SSD (gp3) - IOPS (12000), General Purpose SSD (gp3) - Throughput (500 MiBps)"
+My Estimate,US East (N. Virginia),Read Replica,Amazon RDS for PostgreSQL,0,4738.48,56861.76,USD,,"Storage amount (500 GB), Storage volume (General Purpose SSD (gp2)), Nodes (2), Instance Type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand)"
+My Estimate,US East (N. Virginia),DNS Resolver,Amazon Route 53,0,938,11256.00,USD,,"Number of Elastic Network Interfaces (10), Hosted Zones (1), Basic Checks Within AWS (100)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,23,276.00,USD,,S3 Standard storage (1000 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,32.85,394.20,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,1200.85,14410.20,USD,,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,157.5,1890.00,USD,,"Number of Metrics (includes detailed and custom metrics) (20), Volume of incoming requests (1000 per minute), Number of alarms defined with a Metrics Insights query (50), Average number of metrics scanned by each Metrics Insights query (25), Number of High Resolution Alarm Metrics (20), Number of Standard Resolution Alarm Metrics (20), Number of Dashboards (5), Logs Delivered to S3: Data Ingested (50 GB)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

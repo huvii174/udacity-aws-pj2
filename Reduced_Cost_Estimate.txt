@@ -1,0 +1,3 @@
+- The pricing strategy for EC2 has shifted from on-demand to 1-year prepaid reserved instances for both web and application servers.
+- The pricing strategy for RDS has also shifted from on-demand to 1-year prepaid reserved instances.
+- The EC2 instance type has been upgraded from c5.xlarge to c5a.2xlarge, but the number of instances has been reduced from 8 to 4 to maintain the same performance level.
